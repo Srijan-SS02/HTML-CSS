@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+    <!-- Using Internal CSS -->
+    <style>
+        p{  
+            /* This was element selector */
+            color:red;
+        
+        }
+
+        #blueElement{
+            /* this is ID selector */
+            color:blue;
+        }
+        
+        .bgBlue{
+            /* this is CLASS selector */
+            background-color: lightblue;
+        }
+
+        .yellow{
+            color: yellow  ;
+        }
+        
+        /* Grouping Selector */
+        span ,footer{
+            background-color: pink;
+            color: black;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h3> CSS Selectors</h3>
+
+    <p class="bgBlue">this is  a simple demonstration of css selectors</p>
+   
+    <p id="blueElement">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, recusandae?</p>
+   
+    <div class="bgBlue">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero excepturi omnis magni earum ducimus vero laborum voluptate fugit nam natus.</p>
+         
+    </div>
+
+    <div  >
+       <p class="bgBlue yellow">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi odio consequuntur earum dolorem, exercitationem non deleniti nulla laboriosam nostrum vel?       
+       </p>
+       <span>Hello everyone</span>
+    </div>
+    
+    
+    
+    <footer>this is footer</footer>
+    
+</body>
+</html>
