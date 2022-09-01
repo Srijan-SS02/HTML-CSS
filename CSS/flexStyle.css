@@ -1,0 +1,26 @@
+.Containers{
+    display: flex;
+    /* row by default and can be changed to column and reverse */
+    flex-direction: row;
+
+    /* fits all the content within the dimension of main container......wrap,nowrap and reverse wrap */
+    flex-wrap: wrap;
+
+    /* it shifts all the other div within the main container to center,flex-start and flex-end;  VERTICALLY */
+    align-items: fLEX-START;
+    
+    /* it shifts all the other div within the main container to center,flex-start and flex-end;  HORIZONTALLY */
+    justify-content: flex-end;
+
+    
+    background-color: dodgerblue;
+    width: 1800px;
+    height: 700px;
+
+}
+
+.cont{
+    margin: 20px;
+    border: 2px solid black;
+    padding : 50px 50px;
+}   
